@@ -15,6 +15,7 @@ public class PrimaryController {
 
         String texto = textArea.getText();
         escribirFichero(texto.getBytes());
+
     }
 
     private void escribirFichero(byte[] contenido) throws IOException{
